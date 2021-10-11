@@ -28,7 +28,7 @@ SECRET_KEY = 'eo1wxzytp#$0=6xed9z7_du=t1(a%d%%$##%%^^o&&&^%$$%^^^&&**(*&&^^%$###
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','cictmombasa.herokuapp.com']
+ALLOWED_HOSTS = ['nepcollege.herokuapp.com']
 
 #security after https is configured in my server
 #CSRF_COOKIE_SECURE =True # carefure
@@ -111,11 +111,11 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'woo',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': '',
+        'NAME': 'd4ulca51aj0o9t',
+        'USER': 'xzcwktsmeogmre',
+        'PASSWORD': 'e0d31b858235c46d57e7d1432a9466825d211b69bad70dac426a394bdab4329f',
+        'HOST': 'ec2-34-199-15-136.compute-1.amazonaws.com',
+        'PORT': '5432',
 
     }
 }
@@ -174,7 +174,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'citcmombasaserver@gmail.com'
+EMAIL_HOST_USER = 'denoselu@gmail.com'
 EMAIL_HOST_PASSWORD = 'manage.py'
 ACCOUNT_EMAIL_VERIFICATION='none'
 
